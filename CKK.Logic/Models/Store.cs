@@ -86,7 +86,7 @@ namespace CKK.Logic.Models
                 return null;
             }
         }
-        public Product FindStoreItemByld(int id)
+        public Product FindStoreItemById(int id)
         {
             if (id == Id)
             {
