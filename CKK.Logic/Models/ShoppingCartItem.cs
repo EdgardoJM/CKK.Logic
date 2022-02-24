@@ -10,7 +10,6 @@ namespace CKK.Logic.Models
     {
         private Product _product;
         private int _quantity;
-
         public ShoppingCartItem(Product product, int quantity)
         {
             _product = product;
@@ -33,7 +32,7 @@ namespace CKK.Logic.Models
             _product = product;
         }
 
-        public decimal GetTotal(decimal Price)
+        public decimal GetTotal(decimal Price, int _quantity)
         {
             return _quantity * Price;
         }
