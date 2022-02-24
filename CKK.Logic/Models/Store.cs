@@ -88,15 +88,15 @@ namespace CKK.Logic.Models
         }
         public Product FindStoreItemById(int id)
         {
-            if (id == Id)
+            if (id == 111)
             {
                 return Product1;
             }
-            else if (id == Id)
+            else if (id == 222)
             {
                 return Product2;
             }
-            else if (id == Id)
+            else if (id == 333)
             {
                 return Product3;
             }
